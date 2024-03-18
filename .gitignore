@@ -1,0 +1,10 @@
+/.venv
+/data
+/docs
+/notebooks
+/README.md
+/requirements.txt
+/src
+/test
+/test2.py
+/test3.py
