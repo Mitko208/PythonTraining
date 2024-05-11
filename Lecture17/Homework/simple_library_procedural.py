@@ -74,7 +74,7 @@ def borrow_book(isbn, borrower):
                 elif book['status']=='borrowed':
                     print(f"Book with ISBN: {book['isbn']} is not available in the library.")
                     break
-
+        # Could've added else statement here and it would be more optimized(for the FOR loop)
 
 
 
@@ -116,7 +116,7 @@ def return_book(isbn):
                     book['borrower'] = None
                     print(f"Book with ISBN: {book['isbn']} has been returned.")
                     break
-
+        # Could've added else statement here and it would be more optimized(for the FOR loop)
 
 def list_books():
     """ List all books in the library
